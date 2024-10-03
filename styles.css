@@ -1,0 +1,129 @@
+/* Body styling */
+body {
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container styling */
+.fond {
+    min-height: 800px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-shadow: 100px 100px 200px rgba(8, 114, 227, 0.227);
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+/* Screen styling */
+.ecran {
+    min-width: 100%;
+    border: 2px solid;
+    min-height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Operation display styling */
+.operation {
+    font-size: 40px;
+    font-weight: 700;
+    color: gray;
+    min-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Result display styling */
+.resultat {
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    min-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+/* Button container styling */
+.touche {
+    min-width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+/* Row styling */
+.ligne {
+    min-width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.boutton {
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 50%;
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+    cursor: pointer;
+}
+
+/* Function button styling */
+.fonction {
+    background-color: orange;
+}
+
+/* Special button styling */
+.special {
+    background-color: lightslategray;
+}
+
+/* Hover effect for buttons */
+.boutton:hover {
+    background-color: #45a049; /* Change color on hover */
+}
+
+/* Active button effect */
+.boutton:active {
+    transform: scale(0.95); /* Simulate click effect by scaling down */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
+
+/* Icon styling */
+.i-cal {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+}
